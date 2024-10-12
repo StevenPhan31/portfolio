@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Steven Phan Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#resume">Resume</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home">
+    <h1>Steven Phan</h1>
+    <p>Embedded Software Engineer | Avionics Specialist</p>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm Steven Phan, an Embedded Software Engineer with experience in real-time systems, RTOS, and DO-178C compliance.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1: Flight Control System</h3>
+      <p>Developed a real-time flight control system using microcontroller architecture and RTOS.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2: Black Hawk Avionics</h3>
+      <p>Designed and implemented safety-critical software updates for the UH-60V Black Hawk.</p>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>Resume</h2>
+    <a href="Steven_Phan_Resume.pdf" download>Download My Resume</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form action="/submit-form" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Steven Phan</p>
+  </footer>
+</body>
+</html>
